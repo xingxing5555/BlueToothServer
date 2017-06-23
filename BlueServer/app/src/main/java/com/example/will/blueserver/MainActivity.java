@@ -169,7 +169,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
                     }
                     localBluetoothCtrl.getBluetoothAdapter().setName("qeebike_" + "123456");
 
-                    Log.e("wyn", "222 name is " + localBluetoothCtrl.getBluetoothAdapter().getName());
+                    Log.e("wyn", "name is " + localBluetoothCtrl.getBluetoothAdapter().getName());
 
                     blePeripheral.startAdvertising(advertiseSettings, advertiseData, advertiseCallback);
                 }else{
