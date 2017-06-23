@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="开启蓝牙"
+        android:id="@+id/enable_ble_item" />
+    <item android:title="开始广播"
+        android:id="@+id/start_advertise_item"/>
+    <item android:title="结束广播"
+        android:id="@+id/stop_advertise_item"/>
+    <item android:title="关闭蓝牙"
+        android:id="@+id/disable_ble_item"/>
+</menu>
